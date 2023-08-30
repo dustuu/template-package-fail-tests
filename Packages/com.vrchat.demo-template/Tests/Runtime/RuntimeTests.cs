@@ -14,7 +14,7 @@ namespace VRChatPackageTemplate.Tests
         public void TestSubtract() => True(Subtract(5, 10) == -5);
 
         [Test]
-        public void TestMultiply() => True(Multiply(25, 5) == 125);
+        public void TestMultiply() => True(Multiply(25, 5) == 100);
 
         [Test]
         public void TestDivide() => True(Divide(25, 5) == 5);
